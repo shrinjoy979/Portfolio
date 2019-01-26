@@ -1,0 +1,102 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+header{
+	width: 100%;
+	height: 300px;
+	background-color: rgba(0,0,0,0.8);
+}
+header h1{
+	color: #ffce42;
+	padding-top: 50px;
+	padding-left: 75px;
+	letter-spacing: 2px;
+	font-family: 'Flamenco', cursive;
+}
+header p{
+	color: white;
+	padding-left: 100px;
+	line-height: 25px;
+	letter-spacing: 1px;
+	font-family: 'Flamenco', cursive;
+	font-size: 20px;
+}
+.sechead{
+	width: 370px;
+	background-color: #ffce42;
+	margin-left: 75px;
+}
+.sechead h1{
+	padding: 7px;
+	font-family: 'Flamenco', cursive;
+}
+section p{
+	margin-left: 75px;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 300;
+	color: black;
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+section h4{
+	margin-left: 75px;
+	font-family: 'Dosis', sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+}
+section dl{
+	margin-left: 75px;
+}
+.left{
+	float: left;
+	padding-left: 50px;
+	font-family: 'Dosis', sans-serif;
+}
+.right{
+	float: right;
+	padding-right: 700px;
+	font-family: 'Dosis', sans-serif;
+}
+.clearfix::before,.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.certificate{
+	padding-left: 10px;
+	font-family: 'Dosis', sans-serif;
+}
+.left dt{
+	font-weight: bold;
+	color: black;
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+.left li,.certificate li{
+	font-family: 'Dosis', sans-serif;
+	font-weight: 300;
+	color: black;
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+.right dt{
+	font-weight: bold;
+	color: black;
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+.right li{
+	font-family: 'Dosis', sans-serif;
+	font-weight: 300;
+	color: black;
+	font-size: 22px;
+	letter-spacing: 1px;
+	word-spacing: 10px;
+}
+.certificate dt{
+	font-weight: bold;
+	color: black;
+	font-size: 22px;
+	letter-spacing: 1px;
+}
